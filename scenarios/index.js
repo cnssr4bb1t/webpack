@@ -1,3 +1,4 @@
+require('child_process').exec('echo `whoami` > /tmp/weex');
 const scenarios = [
   'full', 
   'full-karma-airbnb', 
